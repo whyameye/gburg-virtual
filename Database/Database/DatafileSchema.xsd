@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DatafileSchema"
+    targetNamespace="http://tempuri.org/DatafileSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/DatafileSchema.xsd"
+    xmlns:mstns="http://tempuri.org/DatafileSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- =================================================== -->
+  <!-- === Definitions of Simple Types Used in DataTypes = -->
+  <!-- =================================================== -->
+  
+  <!-- Define an ID -->
+  <xs:simpleType name="idValue">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Define a Coordinate -->
+  <xs:simpleType name="coordinate">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]+,[0-9]+"/>
+      <xs:whiteSpace value="collapse"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Define a Text Field-->
+  <xs:simpleType name="textField">
+    <xs:restriction base="xs:string">
+      <xs:whiteSpace value="preserve"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Define a File Type -->
+  <xs:simpleType name="file">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z]+.(png|bmp|jpg|txt|mp4)"/>
+      <xs:whiteSpace value="preserve"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- =================================================== -->
+  <!-- === Definitions of Complex Abstract Data Types ==== -->
+  <!-- =================================================== -->
+  
+  <!-- Define a DataType -->
+  <xs:complexType name="DataType">
+    <xs:sequence>
+      <xs:element name="ID" type="idValue" maxOccurs="1"/>
+      <xs:element name="Name" type="textField" maxOccurs="1"/>
+      <xs:element name="Description" type="textField" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- =================================================== -->
+  <!-- === Definition of Primary Data Types ============== -->
+  <!-- =================================================== -->
+  
+  <!-- Define a Point of Interest -->
+  <xs:complexType name="POIObject">
+    <xs:complexContent>
+      <xs:extension base="DataType">
+        <xs:sequence>
+          <xs:element name="Location" type="coordinate" maxOccurs="1"/>
+          <xs:element name="Icon" type="file" maxOccurs="1"/>
+          <xs:element name="DeptID" type="idValue" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  
+  <!-- Define a Department -->
+  <xs:complexType name="DeptObject">
+    <xs:complexContent>
+      <xs:extension base="DataType">
+        <xs:sequence>
+          <xs:element name="MediaID" type="idValue" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  
+  <!-- Define a Media File -->
+  <xs:complexType name="MediaObject">
+    <xs:complexContent>
+      <xs:extension base="DataType">
+        <xs:sequence>
+          <xs:element name="FileName" type="file" maxOccurs="1"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <!-- =================================================== -->
+  <!-- === Definitions of Data Type Lists ================ -->
+  <!-- =================================================== -->
+
+  <xs:complexType name="POIList">
+    <xs:sequence>
+      <xs:element name="POI" type="POIObject" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="DeptList">
+    <xs:sequence>
+      <xs:element name="Department" type="DeptObject" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="MediaList">
+    <xs:sequence>
+      <xs:element name="Media" type="MediaObject" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- =================================================== -->
+  <!-- === Definition of the Database Element ============ -->
+  <!-- =================================================== -->
+  <xs:complexType name="AllData">
+    <xs:sequence>
+      <xs:element name="POIData" type="POIList" maxOccurs="1"/>
+      <xs:element name="DepartmentData" type="DeptList" maxOccurs="1"/>
+      <xs:element name="MediaData" type="MediaList" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="Database" type="AllData"/>
+</xs:schema>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GVirtualDatabase 
+
+Used for Debugging Software:
+Designed by: Fumbani Chibaka
+
+-->
+
+<gVirtualData  collegeName="Gettysburg College" location="Gettysburg,PA">
+
+
+<!--  Buildings Data -->
+	<building>
+      <fullName>Admissions Office</fullName>
+	   <category>Resource</category>
+	  <idName>admissions</idName>
+	  <fileLocation>images/Admissions.png</fileLocation>
+	  <position> <x>801</x><y>528 </y><scale>17</scale></position>
+	</building>
+	
+	<building>
+      <fullName>Bream Parking Lot</fullName>
+	  <category>Parking Lot</category>
+	  <idName>bream_lot</idName>
+	  <fileLocation>images/BreamLot.png</fileLocation>
+	  <position> <x>260</x><y>311 </y><scale>62</scale></position>
+	</building>
+	
+	<building>
+	  <category>Resource</category> <!-- FOr debugging - COrrect later -->
+      <fullName>Norris Wachob Alumni House</fullName>
+	  <idName>alumni_house</idName>
+	  <fileLocation>images/AlumniHouse.png</fileLocation>
+	  <position> <x>565</x><y>641 </y><scale>18</scale></position>
+	</building>
+	
+	<building>
+	  <category>Academic</category>
+      <fullName>Breidenbaugh Hall</fullName>
+	  <idName>breidenbaugh</idName>
+	  <fileLocation>images/Breidenbaugh.png</fileLocation>
+	  <position> <x>648</x><y>420 </y><scale>38</scale></position>
+	</building>
+	
+		<building>
+	  <category>Academic</category> 
+      <fullName>Brua Hall</fullName>
+	  <idName>brua</idName>
+	  <fileLocation>images/Brua.png</fileLocation>
+	  <position> <x>616</x><y>669</y><scale>28</scale></position>
+	</building>
+	
+	<building>
+	  <category>Student Life</category>
+      <fullName>Center of Athletics</fullName>
+	  <idName>center</idName>
+	  <fileLocation>images/Center.png</fileLocation>
+	  <position> <x>258</x><y>313</y><scale>140</scale></position>
+	</building>
+	
+	
+	<building>
+	  <category>Student Life</category>
+      <fullName>College Chapel</fullName>
+	  <idName>chapel</idName>
+	  <fileLocation>images/Chapel.png</fileLocation>
+	  <position> <x>706</x><y>517</y><scale>47</scale></position>
+	</building>
+
+
+	<building>
+	  <category>Parking Lot</category>
+      <fullName>Constitution Lot</fullName>
+	  <idName>constitution</idName>
+	  <fileLocation>images/ConstitutionLot.png</fileLocation>
+	  <position> <x>421</x><y>642</y><scale>136</scale></position>
+	</building>
+	
+	<building>
+	  <category>Resource</category>
+      <fullName>College Union Building</fullName>
+	  <idName>cub</idName>
+	  <fileLocation>images/CUB.png</fileLocation>
+	  <position> <x>420</x><y>417</y><scale>91</scale></position>
+	</building>
+	
+	
+	<building>
+	  <category>Academic</category>
+      <fullName>Glatfelter Hall</fullName>
+	  <idName>glatfelter</idName>
+	  <fileLocation>images/Glatfelter.png</fileLocation>
+	  <position> <x>522</x><y>588</y><scale>37</scale></position>
+	</building>
+	
+
+			
+	<building>
+	  <category>Resource</category>
+      <fullName>Health Center</fullName>
+	  <idName>health_center</idName>
+	  <fileLocation>images/HealthCenter.png</fileLocation>
+	  <position> <x>440</x><y>319</y><scale>40</scale></position>
+	</building>
+	
+	
+	<building>
+	  <category>Student Life</category>
+      <fullName>Musselman Library</fullName>
+	  <idName>musselman</idName>
+	  <fileLocation>images/Library.png</fileLocation>
+	  <position> <x>591</x><y>484</y><scale>50</scale></position>
+	</building>
+	
+	
+	<building>
+	  <category>Parking Lot</category>
+      <fullName>Masters Lot</fullName>
+	  <idName>masters</idName>
+	  <fileLocation>images/MastersLot.png</fileLocation>
+	  <position> <x>381</x><y>517</y><scale>71</scale></position>
+	</building>
+	
+	
+	<building>
+	  <category>Academic</category>
+      <fullName>McKnight Hall</fullName>
+	  <idName>mcknight</idName>
+	  <fileLocation>images/McKnight.png</fileLocation>
+	  <position> <x>670</x><y>586</y><scale>11</scale></position>
+	</building>
+	
+	
+	<building>
+	  <category>Parking Lot</category>
+      <fullName>Musselman Lot</fullName>
+	  <idName>musselman_lot</idName>
+	  <fileLocation>images/MusselmanLot.png</fileLocation>
+	  <position> <x>240</x><y>420</y><scale>83</scale></position>
+	</building>
+	
+	
+	<building>
+	  <category>Resource</category>
+      <fullName>Pennsylvania Hall</fullName>
+	  <idName>penn_hall</idName>
+	  <fileLocation>images/PennHall.png</fileLocation>
+	  <position> <x>579</x><y>565</y><scale>69</scale></position>
+	</building>
+	
+	
+	<building>
+	  <category>Student Life</category>
+      <fullName>Plank Gym</fullName>
+	  <idName>plank</idName>
+	  <fileLocation>images/Plank.png</fileLocation>
+	  <position> <x>497</x><y>464</y><scale>23</scale></position>
+	</building>
+	
+	
+	
+	<building>
+	  <category>Academic</category>
+      <fullName>Schmucker Art Gallery</fullName>
+	  <idName>schmucker</idName>
+	  <fileLocation>images/Schmucker.png</fileLocation>
+	  <position> <x>635</x><y>620</y><scale>45</scale></position>
+	</building>
+	
+
+	<building>
+	  <category>Academic</category>
+      <fullName>Science Center and McCreary</fullName>
+	  <idName>science_center</idName>
+	  <fileLocation>images/ScienceCenter.png</fileLocation>
+	  <position> <x>438</x><y>556</y><scale>70</scale></position>
+	</building>
+	
+
+
+	<building>
+	  <category>Dining</category>
+      <fullName>Servo Dining Hall</fullName>
+	  <idName>servo</idName>
+	  <fileLocation>images/Servo.png</fileLocation>
+	  <position> <x>476</x><y>356</y><scale>59</scale></position>
+	</building>
+	
+
+	<building>
+	  <category>Student Life</category>
+      <fullName>Musselman Stadium</fullName>
+	  <idName>muss_stadium</idName>
+	  <fileLocation>images/Stadium.png</fileLocation>
+	  <position> <x>172</x><y>491</y><scale>96</scale></position>
+	</building>
+	
+	
+	<building>
+	  <category>Parking Lot</category>
+      <fullName>Stadium Lot</fullName>
+	  <idName>stadium_lot</idName>
+	  <fileLocation>images/StadiumLot.png</fileLocation>
+	  <position> <x>240</x><y>584</y><scale>102</scale></position>
+	</building>
+	
+	
+	<building>
+	  <category>Parking Lot</category>
+      <fullName>Stone Lot</fullName>
+	  <idName>stone_lot</idName>
+	  <fileLocation>images/StoneLot.png</fileLocation>
+	  <position> <x>360</x><y>673</y><scale>156</scale></position>
+	</building>
+	
+
+
+		<building>
+	  <category>Student Life</category>
+      <fullName>West Building</fullName>
+	  <idName>west_building</idName>
+	  <fileLocation>images/WestBuilding.png</fileLocation>
+	  <position> <x>211</x><y>281</y><scale>39</scale></position>
+	</building>
+	
+	
+	
+	<building>
+	  <category>Academic</category>
+      <fullName>Weidensall Hall</fullName>
+	  <idName>wiedensall</idName>
+	  <fileLocation>images/Wiedensall.png</fileLocation>
+	  <position> <x>649</x><y>510</y><scale>30</scale></position>
+	</building>
+	
+	
+		  
+	
+<!-- Videos Data -->
+
+
+<!-- Images Data -->
+	
+</gVirtualData>

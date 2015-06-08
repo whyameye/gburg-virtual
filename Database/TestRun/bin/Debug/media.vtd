@@ -1,0 +1,49 @@
+<img>
+<idn>0
+<nme>Sphere
+<dis>Stuff about a Sphere.
+<fnm>Sphere.png
+</img>
+<txt>
+<idn>1
+<nme>Sphere
+<dis>Stuff about a Sphere.
+<fnm>Sphere.txt
+</txt>
+<img>
+<idn>2
+<nme>Cylinder
+<dis>Stuff about a Cylinder.
+<fnm>Cylinder.png
+</img>
+<txt>
+<idn>3
+<nme>Cylinder
+<dis>Stuff about a Cylinder.
+<fnm>Cylinder.txt
+</txt>
+<img>
+<idn>4
+<nme>Pyramid
+<dis>Stuff about a Pyramid.
+<fnm>Pyramid.png
+</img>
+<txt>
+<idn>5
+<nme>Pyramid
+<dis>Stuff about a Pyramid.
+<fnm>Pyramid.txt
+</txt>
+<img>
+<idn>6
+<nme>Cube
+<dis>Stuff about a Cube.
+<fnm>Cube.png
+</img>
+<txt>
+<idn>7
+<nme>Cube
+<dis>Stuff about a Cube.
+<fnm>Cube.txt
+</txt>
+</end>

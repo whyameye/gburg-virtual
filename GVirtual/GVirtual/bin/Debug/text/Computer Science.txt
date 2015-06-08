@@ -1,0 +1,5 @@
+The computer science curriculum, offered by the Department of Computer Science, enables a student to study systematic approaches to problem solving within a computing environ-ment. In the course of this study, the student develops the practice of clear thinking and logical reasoning, while learning to analyze information processing tools and systems. Within this study there is an emphasis on the human factors associated with computing in the modern world.
+
+The available courses cover a wide area of computer science. In addition, upper-division students may, in collaboration with faculty members, be involved in on-going research projects or study topics not covered by the regular course offerings.
+
+The major is designed to give students a broad understanding of both the theoretical and applied aspects of the discipline. As such, it provides a firm foundation for those intending to do graduate work as well as for those interested in pursuing a career in computer science.

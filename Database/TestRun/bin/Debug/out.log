@@ -1,0 +1,40 @@
+=======================================================================
+=======================================================================
+=======================================================================
+Finding Root Directory: C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\TestRun\bin\Debug
+Sphere	Type: 2
+Sphere	Type: 1
+Cylinder	Type: 2
+Cylinder	Type: 1
+Pyramid	Type: 2
+Pyramid	Type: 1
+Cube	Type: 2
+Cube	Type: 1
+Geometry Department	ID: 0
+<dpt>
+<idn>0
+<nme>Geometry Department
+<dis>Geometry stuff!
+<txt>1
+<txt>3
+<txt>5
+<txt>7
+<img>0
+<img>2
+<img>4
+<img>6
+</dpt>
+
+The Geo Spot	ID: 0
+<poi>
+<idn>0
+<nme>The Geo Spot
+<loc>0,0
+<dis>A shapely point.
+<fnm>null.png
+<dpt>0
+</poi>
+
+=======================================================================
+=======================================================================
+=======================================================================

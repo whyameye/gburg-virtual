@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GVirtualDatabase 
+
+Used for Debugging Software:
+Designed by: Fumbani Chibaka
+
+-->
+
+<gVirtualDepartments collegeName="Gettysburg College" location="Gettysburg,PA">
+
+<!--  Department List -->
+	<dpt><name>Africana Studies</name></dpt>
+	<dpt><name>Anthropology</name></dpt>
+	<dpt><name>Asian Studies</name></dpt> 
+	<dpt><name>Biology</name></dpt>
+	<dpt><name>Chemistry</name></dpt>
+	<dpt><name>Civil War Era Studies</name></dpt>
+	<dpt><name>Classics</name></dpt>
+	<dpt><name>Computer Science</name></dpt>
+	<dpt><name>Conservatory of Music</name></dpt>
+	<dpt><name>Economics</name></dpt>
+	<dpt><name>Education</name></dpt>
+	<dpt><name>English</name></dpt>
+	<dpt><name>Environmental Studies</name></dpt>
+	<dpt><name>French and Italian</name></dpt>
+	<dpt><name>German</name></dpt>
+	<dpt><name>Globalization Studies</name></dpt>
+	<dpt><name>Health Sciences</name></dpt>
+	<dpt><name>History</name></dpt>
+	<dpt><name>Interdisciplinary Studies</name></dpt>
+	<dpt><name>International Affairs</name></dpt>
+	<dpt><name>Latin American Studies</name></dpt>
+	<dpt><name>Management</name></dpt>
+	<dpt><name>Mathematics</name></dpt>
+	<dpt><name>Philosophy</name></dpt>
+	<dpt><name>Physics</name></dpt>
+	<dpt><name>Political Science</name></dpt>
+	<dpt><name>Psychology</name></dpt>
+	<dpt><name>Religious Studies</name></dpt>
+	<dpt><name>Sociology</name></dpt>
+	<dpt><name>Spanish</name></dpt>
+	<dpt><name>Theatre Arts</name></dpt>
+	<dpt><name>Visual Arts</name></dpt>
+	<dpt><name>Women and Gender Studies</name></dpt>
+	
+	
+	<!--
+	"Chemistry",
+        //                                                "Civil War Era Studies", "Classics", "Computer Science", "Conservatory of Music",
+        //                                                "Economics", "Education", "English", "Environmental Studies", "French & Italian",
+        //                                                "German", "Globalization Studies", "Health Sciences", "History", "Interdisciplinary Studies",
+        //                                                "International Affairs", "Latin American Studies", "Management", "Mathematics", "Philosophy",
+        //                                                "Physics", "Political Science", "Psychology", "Religious Studies", "Sociology", "Spanish",
+        //                                                "Theatre Arts", "Visual Arts", "Women and Gender Studies"});
+	-->
+	
+	
+	
+</gVirtualDepartments>

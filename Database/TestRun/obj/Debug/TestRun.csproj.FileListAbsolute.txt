@@ -1,0 +1,9 @@
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\TestRun\bin\Debug\TestRun.exe
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\TestRun\bin\Debug\TestRun.pdb
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\TestRun\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\TestRun\obj\Debug\TestRun.Properties.Resources.resources
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\TestRun\obj\Debug\TestRun.csproj.GenerateResource.Cache
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\TestRun\obj\Debug\TestRun.exe
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\TestRun\obj\Debug\TestRun.pdb
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\TestRun\bin\Debug\Data.dll
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\TestRun\bin\Debug\Data.pdb

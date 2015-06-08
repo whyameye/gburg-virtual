@@ -1,0 +1,10 @@
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\DatabaseEditor\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\DatabaseEditor\obj\Debug\DatabaseEditor.Properties.Resources.resources
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\DatabaseEditor\obj\Debug\DatabaseEditor.csproj.GenerateResource.Cache
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\DatabaseEditor\bin\Debug\DatabaseEditor.exe
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\DatabaseEditor\bin\Debug\DatabaseEditor.pdb
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\DatabaseEditor\bin\Debug\Data.dll
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\DatabaseEditor\bin\Debug\Data.pdb
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\DatabaseEditor\obj\Debug\DatabaseEditor.exe
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\DatabaseEditor\obj\Debug\DatabaseEditor.pdb
+C:\Users\Kyle\Documents\Visual Studio 2008\Projects\Database\DatabaseEditor\obj\Debug\DatabaseEditor.EditorForm.resources
