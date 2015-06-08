@@ -17,7 +17,7 @@ using libSMARTMultiTouch.Controls; //DraggableBorder
 using System.Windows.Media.Imaging; //BitmapImage
 using System.Windows.Media; //ImageBrush
 using System.Windows; //Point,
-using System.Windows.Media.Effects; // Obselete?
+using System.Windows.Media.Effects; 
 using System.Windows.Controls; //Canvas.setTop.....
 
 using System.Windows.Media.Animation;
