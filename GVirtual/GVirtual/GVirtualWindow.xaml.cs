@@ -28,7 +28,7 @@ namespace GVirtual
 
             LayoutRoot.Children.Add(new TableControl());
 
-            TableManager.IsFullScreen = true;
+            TableManager.IsFullScreen = false;
         }
     }
 }

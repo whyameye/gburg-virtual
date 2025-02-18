@@ -19,6 +19,7 @@ using System.Windows.Media; //ImageBrush
 using System.Windows; //Point,
 using System.Windows.Media.Effects; 
 using System.Windows.Controls; //Canvas.setTop.....
+using System.Diagnostics;
 
 using System.Windows.Media.Animation;
 using System.IO;
@@ -28,7 +29,7 @@ namespace GVirtual
 {
    
     ///
-    class Building : DraggableBorder, ICloneable
+    class Building :  InteractiveBorder, ICloneable
     {
         private BitmapImage buildingBMP; //bitmap image of the building
         private Point currentPoint;
@@ -40,10 +41,30 @@ namespace GVirtual
         private int touchID;
 
         private Boolean hastouch = false;
-        
+
+        public Building()
+        {
+            this.MinHeight = 300;
+            this.MinWidth = 300;
+            this.Height = 300;
+            this.Width = 300;
+            this.scaledWidth = 300;
+            this.Background = new SolidColorBrush(Colors.Red);
+            //this.Foreground = new SolidColorBrush(Colors.Red);
+            Debug.WriteLine("building constructor");
+            //this.IsScaleEnabled = false;
+            //Visibility = Visibility.Visible;
+
+            //this.IsTouchBounceEnabled = true;
+
+            //Canvas.SetLeft(this,0);
+            //Canvas.SetTop(this, 0);
+        }
 
         /// <summary><para>@author: Fumbani Chibaka</para>
         ///<para>Constuctor for Class GVirtual </para></summary> 
+
+        /*
         public Building(String ID, String name, String url, Point originalPoint, int scaledWidth)
         {
             this.Name = "Building"+ID;
@@ -59,6 +80,7 @@ namespace GVirtual
             ImageBrush paint = new ImageBrush(buildingBMP);
 
             //paint building as DraggableBorder background
+            
             this.Background = paint;
             this.Width =  buildingBMP.PixelWidth;
             this.Height =  buildingBMP.PixelHeight;
@@ -75,6 +97,7 @@ namespace GVirtual
 
             AddVisualEffects();  //show building with a glowing border
         }//end constructor
+        */
 
         /// <summary><para>@author: Fumbani Chibaka</para>
         ///<para> get the original Positon of the building </para></summary> 

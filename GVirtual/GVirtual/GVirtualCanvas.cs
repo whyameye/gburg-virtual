@@ -20,6 +20,7 @@ using libSMARTMultiTouch.Input;
 using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging; //BitmapImage
 using libSMARTMultiTouch.Controls;
+using System.Diagnostics;
 //using System.Drawing.Image;  doesn't work?
 //using System.Drawing.Drawing2D;  doesn't work?
 
@@ -201,6 +202,11 @@ namespace GVirtual
         {
             buildingsCollection = new ArrayList();
             PoICollection = data.GetPOIList();
+            Building b = new Building();
+            this.Children.Add(b);
+            this.AddListeners(b);
+
+            /*
             foreach (PoI p in PoICollection)
             {
                 //prevents dining areas inside CUB from being added to map
@@ -215,6 +221,7 @@ namespace GVirtual
                 }
                 //TODO:  this.AnimateBuilding(building, true);
             }
+            */
         }//end method AddBuildings
 
 
@@ -259,12 +266,14 @@ namespace GVirtual
 
         /// <summary><para>@author: Fumbani Chibaka, DJ, Walter</para>
         ///<para>Touch Down event listener attached to buildings</para></summary> 
+        
         void BuildingTouchDown(object sender, libSMARTMultiTouch.Input.TouchContactEventArgs e)
         {
 
             Building b = (Building)sender;
-            //Trace("" + e.TouchContact.ID);
-            //Trace("" + b.HasTouch);
+            Debug.WriteLine("" + e.TouchContact.ID);
+            Debug.WriteLine("" + b.HasTouch);
+            /*
             if (b.HasTouch == false)
             {
                 b.BitmapEffect = null; //Cancel out effect
@@ -303,9 +312,9 @@ namespace GVirtual
                 e.TouchContact.Release();
             }
 
-
+            */
         }//end method buildingTouchDown
-
+        
 
         /// <summary><para>@author: Fumbani Chibaka, DJ</para>
         ///<para>Touch Down event listener attached to buildings</para></summary> 
@@ -427,6 +436,7 @@ namespace GVirtual
 
         /// <summary><para>@author: Walter</para>
         ///<para>Iterates through and adds a building if its missing</para></summary>
+        /*
         void Refresh()
         {
             for (int i = 0; i < buildingsCollection.Count; i++)
@@ -442,6 +452,7 @@ namespace GVirtual
 
             }
         }
+        */
         //Fumbani Chibaka - RESET the Canvas
         public void AddResetBtn()
         {

@@ -32,6 +32,7 @@ namespace GVirtual
         /// Fumbani Chibaka
         /// </summary>
         /// <returns> ArrayList of  Buildings</returns>
+        /*
         public ArrayList ExtractBuildingData()
         {
             console.Text += ("\n Function: ExtractBuildingData ");
@@ -65,7 +66,7 @@ namespace GVirtual
             return buildingsCollection;
         }//end method ExtractBuildingData
 
-
+    */
         /// <summary>
         ///  Fumbani Chibaka
         /// </summary>
