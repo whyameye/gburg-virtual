@@ -271,8 +271,9 @@ namespace GVirtual
         {
 
             Building b = (Building)sender;
-            Debug.WriteLine("" + e.TouchContact.ID);
-            Debug.WriteLine("" + b.HasTouch);
+            Debug.WriteLine("DOWN id: " + e.TouchContact.ID + "X: " + e.TouchContact.Position.X + " Y: " + e.TouchContact.Position.Y);
+
+            //Debug.WriteLine("" + b.HasTouch);
             /*
             if (b.HasTouch == false)
             {
@@ -320,13 +321,15 @@ namespace GVirtual
         ///<para>Touch Down event listener attached to buildings</para></summary> 
         void BuildingTouchDownOff(object sender, libSMARTMultiTouch.Input.TouchContactEventArgs e)
         {
-
+            Debug.WriteLine("OFF id: " + e.TouchContact.ID + "X: " + e.TouchContact.Position.X + " Y: " + e.TouchContact.Position.Y);
         }
 
         /// <summary><para>@author: Fumbani Chibaka</para>
         ///<para>Touch Move event listener attached to buildings</para></summary>
         void BuildingTouchMove(object sender, TouchContactEventArgs e)
         {
+            //Debug.WriteLine("MOVE id: " + e.TouchContact.ID + "X: " + e.TouchContact.Position.X + " Y: " + e.TouchContact.Position.Y);
+            /*
             Building building = (Building)sender;
             
             if (building.HasTouch == false)
@@ -343,14 +346,16 @@ namespace GVirtual
             {
                 e.TouchContact.Release();
             }
-
+            */
         }//end method buildingTouchMove
 
         /// <summary><para>@author: Fumbani Chibaka, Walter</para>
         ///<para>Touch up event listener attached to buildings</para></summary> 
         void BuildingTouchUp(object sender, libSMARTMultiTouch.Input.TouchContactEventArgs e)
         {
-            
+            Debug.WriteLine("UP id: " + e.TouchContact.ID + "X: " + e.TouchContact.Position.X + " Y: " + e.TouchContact.Position.Y);
+/*
+
             Building building = (Building)sender;
             if (building.HasTouch && e.TouchContact.ID == building.TouchID)
             {
@@ -375,6 +380,7 @@ namespace GVirtual
             //if when the building is removed, there are less buildings on the map than in the hash table, call Refresh()
             if (this.Children.Count < buildingsCollection.Count + 2) { }
                 //this.Refresh();
+                */
         }//end method buildingTouchUp
 
 
