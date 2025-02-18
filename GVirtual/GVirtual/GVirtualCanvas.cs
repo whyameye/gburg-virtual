@@ -15,6 +15,8 @@ using System.Windows.Media;
 using System.Windows.Shapes;
 using System.Windows;
 using System.IO;
+using System.Windows.Input;
+
 
 using libSMARTMultiTouch.Input;
 using System.Windows.Media.Animation;
@@ -63,6 +65,9 @@ namespace GVirtual
 
         public GVirtualCanvas()
         {
+            this.Width = SystemParameters.PrimaryScreenWidth;
+            this.Height = SystemParameters.PrimaryScreenHeight;
+            this.Cursor = Cursors.None;
             //Add all [graphic] elements to the canvas
             AddElementsToCanvas();
 
@@ -75,28 +80,28 @@ namespace GVirtual
         {
 
             //prepare the canvas
-            this.Background = new SolidColorBrush(Colors.Transparent);
-            this.Width = windowWidth;
-            this.Height = windowHeight;
+            //this.Background = new SolidColorBrush(Colors.Transparent);
+            //this.Width = windowWidth;
+            //this.Height = windowHeight;
 
             //prepare the screen (Grid)
-            screen = new Grid();
-            screen.Height = windowHeight;
-            screen.Width = windowWidth;
-            screen.Background = new SolidColorBrush(Colors.Transparent);
-            this.Children.Add(screen);
+            //screen = new Grid();
+            //screen.Height = windowHeight;
+            //screen.Width = windowWidth;
+            //screen.Background = new SolidColorBrush(Colors.Transparent);
+            //this.Children.Add(screen);
 
             // 1. GBurg Map
-            AddMap("images/campusmap2.jpg");
+            //AddMap("images/campusmap2.jpg");
 
             // 2. Console window for debugging
-            AddConsoleWindow();
+            //AddConsoleWindow();
 
             //3. Initiate the database (once debug console window is ready for use)
             //db = new Database(console);
 
             // 2.Trays
-            AddTrays();
+            //AddTrays();
 
             //4. Campus Buildings
             AddBuildings();
@@ -105,7 +110,7 @@ namespace GVirtual
             //this.Children.Add(console);
 
             //5 Reset button
-            AddResetBtn();
+            //AddResetBtn();
 
 
 

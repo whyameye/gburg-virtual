@@ -24,11 +24,25 @@ namespace GVirtual
         {
             InitializeComponent();
 
-            TableManager.Initialize(this, LayoutRoot);
+            //TableManager.Initialize(this, LayoutRoot);
+            TableManager.InitializeResources(LayoutRoot);
+            TableManager.InitializeTouchDevices(this);
+            TableManager.IsMouseTouchEmulationEnabled = true;
+            //public TableEffect(TableEffectType type, string text, MediaElement sound, Brush background);
+            TableControl x = new TableControl();
+            x.Opacity = .01;
+            LayoutRoot.Children.Add(x);
 
-            LayoutRoot.Children.Add(new TableControl());
-
-            TableManager.IsFullScreen = false;
+            //LayoutRoot.Children.Add(new TableControl());
+            // this.Cursor = Cursors.None;
+            //TableManager.IsFullScreen = false;
+        }
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Escape)
+            {
+                this.Close();
+            }
         }
     }
 }

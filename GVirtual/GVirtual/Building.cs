@@ -29,7 +29,8 @@ namespace GVirtual
 {
    
     ///
-    class Building :  InteractiveBorder, ICloneable
+    class Building :  InteractiveBorder
+    //class Building : InteractiveBorder, ICloneable
     //class Building : DraggableBorder, ICloneable
 
     {
@@ -53,10 +54,10 @@ namespace GVirtual
             this.scaledWidth = 300;
             this.Background = new SolidColorBrush(Colors.Red);
             //this.Foreground = new SolidColorBrush(Colors.Red);
+            this.Opacity = 1;
             Debug.WriteLine("building constructor");
             //this.IsScaleEnabled = false;
             //Visibility = Visibility.Visible;
-
             //this.IsTouchBounceEnabled = true;
 
             //Canvas.SetLeft(this,0);
