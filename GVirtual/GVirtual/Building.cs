@@ -49,9 +49,10 @@ namespace GVirtual
         {
             this.MinHeight = 300;
             this.MinWidth = 300;
-            this.Height = 300;
-            this.Width = 300;
-            this.scaledWidth = 300;
+
+            this.MinHeight = SystemParameters.PrimaryScreenHeight;
+            this.MinWidth = SystemParameters.PrimaryScreenWidth;
+
             this.Background = new SolidColorBrush(Colors.Red);
             //this.Foreground = new SolidColorBrush(Colors.Red);
             this.Opacity = 1;
