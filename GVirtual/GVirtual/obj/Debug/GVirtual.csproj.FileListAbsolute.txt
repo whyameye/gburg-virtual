@@ -164,3 +164,23 @@ C:\Users\Walter\Documents\Visual Studio 2008\Projects\GVirtual\ gburgvirtual --u
 C:\Users\Walter\Documents\Visual Studio 2008\Projects\GVirtual\ gburgvirtual --username fumbanie\GVirtual\GVirtual\obj\Debug\GVirtual.g.resources
 C:\Users\Walter\Documents\Visual Studio 2008\Projects\GVirtual\ gburgvirtual --username fumbanie\GVirtual\GVirtual\obj\Debug\GVirtual.Properties.Resources.resources
 C:\Users\Walter\Documents\Visual Studio 2008\Projects\GVirtual\ gburgvirtual --username fumbanie\GVirtual\GVirtual\obj\Debug\GVirtual.csproj.GenerateResource.Cache
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\GVirtual.csprojAssemblyReference.cache
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\GVirtualWindow.baml
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\GVirtualWindow.g.cs
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\App.g.cs
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\GVirtual_MarkupCompile.cache
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\GVirtual.exe
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\GVirtual.pdb
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\bin\Debug\GVirtual.exe
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\bin\Debug\GVirtual.pdb
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\bin\Debug\Interop.SBSDKComWrapperLib.dll
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\bin\Debug\libSMARTMultiTouch.dll
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\bin\Debug\Sdgt 3.0.dll
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\TableControl.baml
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\TableControl.g.cs
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\GVirtual.g.resources
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\GVirtual.Properties.Resources.resources
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\GVirtual.csproj.GenerateResource.cache
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\GVirtual.csproj.CoreCompileInputs.cache
+C:\Users\filim\dev\gburg-virtual\GVirtual\GVirtual\obj\Debug\GVirtual.csproj.CopyComplete
