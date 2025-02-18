@@ -30,6 +30,8 @@ namespace GVirtual
    
     ///
     class Building :  InteractiveBorder, ICloneable
+    //class Building : DraggableBorder, ICloneable
+
     {
         private BitmapImage buildingBMP; //bitmap image of the building
         private Point currentPoint;
