@@ -1,7 +1,7 @@
-﻿<Application x:Class="GVirtual.App"
+﻿<Application x:Class="TouchOSC.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    StartupUri="GVirtualWindow.xaml">
+    StartupUri="MainWindow.xaml">
     <Application.Resources>
          
     </Application.Resources>

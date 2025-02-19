@@ -7,11 +7,11 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GVirtual")]
+[assembly: AssemblyTitle("TouchOSC")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("SMART Technologies Inc.")]
-[assembly: AssemblyProduct("GVirtual")]
+[assembly: AssemblyProduct("TouchOSC")]
 [assembly: AssemblyCopyright("Copyright © SMART Technologies Inc. 2009")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

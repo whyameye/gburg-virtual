@@ -13,27 +13,21 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using libSMARTMultiTouch.Table;
 
-namespace GVirtual
+namespace Main
 {
     /// <summary>
-    /// Interaction logic for GVirtualWindow.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class GVirtualWindow : Window
+    public partial class MainWindow : Window
     {
-        public GVirtualWindow()
+        public MainWindow()
         {
             InitializeComponent();
 
-            //TableManager.Initialize(this, LayoutRoot);
-            TableManager.InitializeResources(LayoutRoot);
-            TableManager.InitializeTouchDevices(this);
-            TableManager.IsMouseTouchEmulationEnabled = true;
-            //public TableEffect(TableEffectType type, string text, MediaElement sound, Brush background);
-            TableControl x = new TableControl();
-            x.Opacity = .01;
-            LayoutRoot.Children.Add(x);
-
-            //LayoutRoot.Children.Add(new TableControl());
+            TableManager.Initialize(this, LayoutRoot);
+            TableControl tableControl = new TableControl();
+            tableControl.Opacity = .01;
+            LayoutRoot.Children.Add(tableControl);
             // this.Cursor = Cursors.None;
             //TableManager.IsFullScreen = false;
         }

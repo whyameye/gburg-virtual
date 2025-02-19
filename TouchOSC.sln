@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.35714.111
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GVirtual", "GVirtual\GVirtual\GVirtual.csproj", "{88EAC8A8-F766-4D22-AA9A-061F90178B11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchOSC", "GVirtual\GVirtual\TouchOSC.csproj", "{88EAC8A8-F766-4D22-AA9A-061F90178B11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

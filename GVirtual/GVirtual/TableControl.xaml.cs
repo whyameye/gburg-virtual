@@ -13,9 +13,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using libSMARTMultiTouch.Controls;
-using GVirtual;
+using Main;
 
-namespace GVirtual
+namespace Main
 {
     /// <summary>
     /// Interaction logic for TableControl.xaml
@@ -31,7 +31,7 @@ namespace GVirtual
         private void TableApplicationControl_Loaded(object sender, RoutedEventArgs e)
         {
             
-            GVirtualCanvas mapCanvas = new GVirtualCanvas();
+            MainCanvas mapCanvas = new MainCanvas();
             TableLayoutRoot.Children.Add(mapCanvas);
         }
     }

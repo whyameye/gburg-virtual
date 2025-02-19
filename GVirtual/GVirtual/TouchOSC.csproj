@@ -87,7 +87,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="GVirtualWindow.xaml">
+    <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -95,21 +95,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GVirtualWindow.xaml.cs">
-      <DependentUpon>GVirtualWindow.xaml</DependentUpon>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Building.cs" />
-    <Compile Include="Database.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="DebugTools.cs" />
-    <Compile Include="GVirtualCanvas.cs" />
-    <Compile Include="InfoScreen.cs" />
-    <Compile Include="MapGUI.cs" />
-    <Compile Include="POIDropArea.cs" />
+    <Compile Include="TouchArea.cs" />
+    <Compile Include="MainCanvas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -126,16 +119,10 @@
     <Compile Include="TableControl.xaml.cs">
       <DependentUpon>TableControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TrayArea.cs" />
-    <Compile Include="TrayFilter.cs" />
-    <Compile Include="TrayMenu.cs" />
-    <Compile Include="TrayFrame.cs" />
-    <Compile Include="TrayTab.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -1,4 +1,4 @@
-﻿<controls:TableApplicationControl x:Class="GVirtual.TableControl"
+﻿<controls:TableApplicationControl x:Class="Main.TableControl"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:controls="clr-namespace:libSMARTMultiTouch.Controls;assembly=libSMARTMultiTouch"
